@@ -23,7 +23,7 @@ Click "Run Scanner" and you'll see something similar to this:
 This script currently doesn't save any data. Feel free to modify.
 
 # Modifying regex
-Currently the regex used is: **$a = ['|url:"/(.*)"|U', "|url:'/(.*)'|U"];**. This means it'll look for url:"/string" and url:'/string'. You can modify this to look for other stuff, such as app secrets, interesting functions etc.
+Currently the regex used is: **$a = ['|url:"/(.*)"|U', "|url:'/(.*)'|U"];**. This means it'll look for url:"/string" and url:'/string'. You can modify this to look for other stuff, such as app secrets, interesting functions etc. This can be found in the processUrls() function, on line 60.
 
 ## Final remarks
 I am not responsible for how you use this tool. You are free to modify this script as you see fit.
