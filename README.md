@@ -1,5 +1,5 @@
 # JS-Scan
-A tool designed to scrape a list of .js files and extract urls, as well as juicy information.
+A tool designed to scrape a list of .js files and extract urls, as well as juicy information. (as long as you modify regex :P)
 
 # What's needed
 - Somewhere to run PHP. I've tested this on PHP 7.1.7 and I recommend running XAMPP locally so you can just run the PHP from your computer locally. You can grab XAMPP from here: https://www.apachefriends.org/index.html. 
