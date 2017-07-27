@@ -28,4 +28,5 @@ Currently the regex used is: **$a = ['|url:"/(.*)"|U', "|url:'/(.*)'|U"];**. Thi
 ## Final remarks
 I am not responsible for how you use this tool. You are free to modify this script as you see fit.
 
+You can also check out @NahamSec and @bbuerhaus JS link parser here: https://github.com/nahamsec/JSParser. It is a tool designed to scrape urls from .js files.
 
