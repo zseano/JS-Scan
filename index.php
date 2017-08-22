@@ -65,7 +65,7 @@ function processUrls($urls)
         $numMatches = count($matches[0]);
 
         for ($i = 0; $i < $numMatches; $i++) {
-          $output .= "<font color='orange'>»»</font> ".$matches[0][$i]."<br>";
+          $output .= "<font color='orange'>»»</font> ".htmlentities($matches[0][$i], ENT_QUOTES, "UTF-8")."<br>";
         }
     }
     $output = implode('<br>',array_unique(explode('<br>', $output)));
