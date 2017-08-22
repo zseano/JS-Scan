@@ -30,3 +30,6 @@ I am not responsible for how you use this tool. You are free to modify this scri
 
 You can also check out @NahamSec and @bbuerhaus JS link parser here: https://github.com/nahamsec/JSParser. It is a tool designed to scrape urls from .js files.
 
+## Thanks
+https://twitter.com/TomNomNom reported an issue regarding output not being sanitized which could of potentially lead to XSS being executed when data was outputted.
+
